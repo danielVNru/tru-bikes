@@ -71,65 +71,74 @@ export const SPEC_HEADERS = [
 ] as const;
 
 export const PRODUCTS: Product[] = [
+    {
+    id: 4,
+    name: "TRU Батя 11",
+    subtitle: 'Fat Bike 32" · 2026',
+    price: 95000,
+    image:
+      "https://images.unsplash.com/photo-1754660661211-d71700b120df?w=640&h=480&fit=crop&auto=format",
+    tag: "Инновация",
+    specs: [
+      'Колеса: 32" (огромные)',
+      "Рама: алюминиевая бустовая (легкая)",
+      "Трансмиссия: Shimano Cues 1x11",
+      "Тормоза: гидравлические",
+      "Быстрый, накатистый, проходимый",
+    ],
+  },
   {
     id: 1,
-    name: "TRU Батя 11",
-    subtitle: 'Hardtail 32" · 2026',
-    price: 59900,
+    name: "GRAIL PRO 10",
+    subtitle: "Gravel · 2026",
+    price: 89900,
     image:
       "https://images.unsplash.com/photo-1575734124434-aeabcbd508b3?w=640&h=480&fit=crop&auto=format",
-    tag: "Хит продаж",
+    tag: "Топ модель",
     specs: [
-      "Рама: алюминий 6061 TIG-сварка",
-      "Вилка: RockShox Judy 100mm",
-      "Трансмиссия: Shimano 1x11",
-      "Тормоза: Shimano MT200",
+      "Рама: алюминий UDH собственной разработки",
+      "Вилка: карбоновая жесткая",
+      "Трансмиссия: Shimano Cues 1x10",
+      "Тормоза: Shimano дисковые механические",
+      "Колеса: Tubeless Ready, покрышки 50мм",
+      "Сквозные оси, конусный стакан",
     ],
   },
   {
     id: 2,
-    name: "TRU Батя 11 Pro",
-    subtitle: 'Hardtail 29" · 2026',
-    price: 74900,
+    name: "GRACIA 8 MD",
+    subtitle: "Women's · 2026",
+    price: 54900,
     image:
       "https://images.unsplash.com/photo-1602010453560-2c77603dfb87?w=640&h=480&fit=crop&auto=format",
-    tag: "Новинка",
+    tag: "Женская геометрия",
     specs: [
-      "Рама: алюминий 6061 Boost",
-      "Вилка: RockShox Recon 120mm",
-      "Трансмиссия: Shimano Deore 1x12",
-      "Тормоза: Shimano MT500",
+      "Рама: алюминий (женская геометрия)",
+      "Трансмиссия: Shimano Altus 1x8",
+      "Тормоза: Tektro дисковые механические",
+      "Подшипники: промышленные во втулках",
+      "Адаптированное седло и руль",
+      "Доступен в 2 цветах",
     ],
   },
   {
     id: 3,
-    name: "TRU Boost 29er",
-    subtitle: "Рама · 2026",
-    price: 34900,
+    name: "EVO 10",
+    subtitle: "MTB 120mm · 2026",
+    price: 79900,
     image:
       "https://images.unsplash.com/photo-1768161680532-32d02decbcb4?w=640&h=480&fit=crop&auto=format",
+    tag: "Готов к трейлам",
     specs: [
-      "Материал: алюминий 6061",
-      "Стандарт: Boost 148x12",
-      'Рулевая: Tapered 1.5"',
-      "Подседел: 31.6mm",
+      "Рама: алюминий, dropper ready",
+      "Вилка: Suntour X1 Boost воздушная 120мм",
+      "Трансмиссия: Shimano Deore 1x10 (11-43)",
+      "Тормоза: Shimano MT200 гидравлика",
+      "Конусный рулевой стакан",
+      "Объемные дропауты",
     ],
   },
-  {
-    id: 4,
-    name: "TRU Батя 11 SE",
-    subtitle: "Special Edition · 2026",
-    price: 69900,
-    image:
-      "https://images.unsplash.com/photo-1754660661211-d71700b120df?w=640&h=480&fit=crop&auto=format",
-    tag: "Лимитед",
-    specs: [
-      "Рама: алюминий 6061 CNC-торцы",
-      "Вилка: Fox Rhythm 120mm",
-      "Трансмиссия: SRAM NX Eagle 1x12",
-      "Тормоза: SRAM Level T",
-    ],
-  },
+  
 ];
 
 export const DEALERS: Dealer[] = [
